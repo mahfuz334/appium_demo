@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Automation">
+    <parameter name="OS" value="Android"/>
+    <parameter name="deviceName" value="Galaxy S10+"/>
+    <parameter name="version" value="9"/>
+    <parameter name="udid" value=""/>
+    <parameter name="host" value="localhost"/>
+    <parameter name="port" value="4723"/>
+
+    <test name="Automation Tests">
+        <classes>
+            <class name="com.demo.androidTestCases.TestHomepage"/>
+        </classes>
+    </test>
+
+
+</suite>
