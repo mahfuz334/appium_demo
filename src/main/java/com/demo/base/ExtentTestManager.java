@@ -65,6 +65,7 @@ public class ExtentTestManager {
     }
 
     protected static synchronized void endTest() {
+        
         extent.endTest(extentTestMap.get((int) Thread.currentThread().getId()));
     }
 
